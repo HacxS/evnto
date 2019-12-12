@@ -41,14 +41,7 @@ $(document).ready(function() {
     /* ==============================================
         STICKY HEADER
         =============================================== */
-
-    $(window).on('scroll', function () {
-        if ($(window).scrollTop() < 100) {
-            $('.header').removeClass('sticky_header');
-        } else {
-            $('.header').addClass('sticky_header');
-        }
-    });
+ 
     /* --------------------------------------------------------
      COUNTER JS
      ----------------------------------------------------------- */
