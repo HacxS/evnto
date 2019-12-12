@@ -2326,6 +2326,7 @@ Cover
   transition: all 0.4s ease-in-out;
 }
 .icon_box_one .content {
+  height:275px;
   margin-top: 0;
   padding: 10px 25px 25px;
 }
