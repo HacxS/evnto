@@ -263,24 +263,24 @@
             </h3>
         </div>
         
-        <div class="project-menu">
+        <div class="project-menu" id="myBtnContainer">
                 <ul>
-                    <li class="filter active tran3s" data-filter="all">
-                                <span class="mybtn">
+                    <li class="btn filter active tran3s" data-filter="all">
+                                <span class="mybtn" onclick="filterSelection('all')">
                                     <span class="mytext">All</span>
                                     <span class="myflip-front">All</span>
                                     <span class="myflip-back">All</span>
                                 </span>
                     </li>
-                    <li class="filter tran3s" data-filter=".startup">
-                                <span class="mybtn">
+                    <li class="btn filter tran3s" data-filter=".startup">
+                                <span class="mybtn" onclick="filterSelection('startup')">
                                     <span class="mytext">Startup</span>
                                     <span class="myflip-front">Startup</span>
                                     <span class="myflip-back">Startup</span>
                                 </span>
                     </li>
-                    <li class="filter tran3s" data-filter=".student">
-                                <span class="mybtn">
+                    <li class="btn filter tran3s" data-filter=".student">
+                                <span class="mybtn" onclick="filterSelection('student')">
                                     <span class="mytext">Student</span>
                                     <span class="myflip-front">Student</span>
                                     <span class="myflip-back">Student</span>
@@ -288,72 +288,232 @@
                     </li>
                 </ul>
             </div>
-        <!--<div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
-                </p>
-            </div>
-            <div class="col-12 col-md-6">
-                <p>
-                    In rhoncus massa nec  sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod quis. Maecenas ornare, ex in malesuada tempus.
-                </p>
-            </div>
-        </div>-->
 
-        <!--event features-->
-        <div class="row justify-content-center mt30">
-            <div class="col-12 col-md-6 col-lg-3">
+        <div class="container row justify-content-center mt30">
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
                 <div class="icon_box_one">
-                    <i class="lnr lnr-mic"></i>
-                    <div class="content">
-                        <h4>60 + Speakers</h4>
+                
+                    <div class="content ovrhid">
+                        <h4>Pitch your Model</h4>
                         <p>
-                            The summit will proudly host entrepreneurs and investors as from Silicon Valley and different parts of India as speakers.
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
                         </p>
-                       
+                       <a href="#">read more</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
                 <div class="icon_box_one">
-                    <i class="lnr lnr-rocket"></i>
-                    <div class="content">
-                        <h4>20+ Events</h4>
+                    
+                    <div class="content ovrhid">
+                        <h4>Idea Validation Arena</h4>
                         <p>
-                            Themed at industry 4.0, the summit is a conclave of panel discussions, workshops, networking, pitching and brainstorming events.
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                        
+                        <a href="#">Register</a>
+                        <a href="#">read more</a>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    
+                    <div class="content ovrhid">
+                        <h4>Startup Villa</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>Scale it up</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        
+
+
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                
+                    <div class="content ovrhid">
+                        <h4>Crowd-ed</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    
+                    <div class="content ovrhid">
+                        <h4>Cisco Bootcamp</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
                         </p>
                         
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
                 <div class="icon_box_one">
-                    <i class="lnr lnr-bullhorn"></i>
-                    <div class="content">
-                        <h4>1.5 million worth prizes</h4>
+                    
+                    <div class="content ovrhid">
+                        <h4>Design-a-thon</h4>
                         <p>
-                            To promote student entrepreneurs through several bootcamps and brainstorming events.
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
                         </p>
-                       
+                       <a href="#">read more</a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="filterDiv student col-12 col-md-6 col-lg-3">
                 <div class="icon_box_one">
-                    <i class="lnr lnr-clock"></i>
-                    <div class="content">
-                        <h4>Early Bird</h4>
+                    <div class="content ovrhid">
+                        <h4>Mock IPL Auction</h4>
                         <p>
-                            So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship summit happening in one of the oldest cities in the world. The early bird registrations will close on 10th January 2020.
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
                         </p>
-                       
+                       <a href="#">read more</a>
                     </div>
                 </div>
             </div>
+
+
+        <div class="filterDiv startup col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>LoneWolf Challenge</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="filterDiv startup col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>Speed Dating with an Investor on a boat</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="filterDiv startup col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>Incube-Me</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="filterDiv startup col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>E-Carnival</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                      <a href="#">read more</a> 
+                    </div>
+                </div>
+            </div>
+
+
+        <div class="filterDiv student startup col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>Intern Connect</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="filterDiv student startup col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>Panel Discussions</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="filterDiv student startup col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <div class="content ovrhid">
+                        <h4>Cruise Networking</h4>
+                        <p>
+                            <span>
+                                So, what are you waiting for? Hurry up! Grab a ticket for the biggest entrepreneurship...
+                            </span>
+                        </p>
+                       <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
         <!--event features end-->
     </div>
@@ -873,5 +1033,57 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="assets/js/wow.min.js"></script>
 <!-- Custom js -->
 <script src="assets/js/main.js"></script>
+<script type="text/javascript">
+
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("filter active");
+    console.log(current);
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+</script>
 </body>
 </html>
