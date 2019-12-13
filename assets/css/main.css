@@ -16,10 +16,10 @@
     . BLOG  SECTION
     . COUNTER SECTION
     . Testimonial SECTION
-	. Contact Section
-	.PROGRESSBAR
-	.SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
-	------------------------------------- */
+  . Contact Section
+  .PROGRESSBAR
+  .SINGLE POST (COMMENTS SIDEBAR TAGS LIST)
+  ------------------------------------- */
 /*  ----------------------------------------------------
 1. GENERAL
 -------------------------------------------------------- */
@@ -3254,6 +3254,93 @@ textarea.form-control {
     transform: rotateX(0deg) translateZ(25px);
 }
 
+
+/*.ovrhid>p>span {
+    height: 120px;
+    display: block;
+    overflow-y: scroll;
+}*/
+
+
+
+.icon_box_one1 {
+  background-color: #f0f2f6;
+  padding: 0;
+  margin: 25px 0;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1 i {
+  margin-top: -10px;
+  padding: 0 15px;
+  font-size: 72px;
+  color: #f50136;
+  vertical-align: middle;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 15px;
+  line-height: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1 .content {
+  height:350px;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px 25px 25px;
+}
+.icon_box_one1 .content h4 {
+  color: #18181c;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1 .content a {
+  color: #f50136;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1 .content p {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1:hover {
+  -webkit-box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
+  background-color: #f50136;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1:hover i {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1:hover .content h4 {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1:hover .content p {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one1:hover .content a {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+
 .container {
   overflow: hidden;
 }
@@ -3264,6 +3351,7 @@ textarea.form-control {
   color: #ffffff;
   display: none; /* Hidden by default */
 }
+
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
@@ -3289,6 +3377,9 @@ textarea.form-control {
   color: white;
 }
 
+
+/* Add a light grey background on mouse-over */
+
 .button-down {
   background-color: orange;
   height: 50px;
@@ -3303,4 +3394,12 @@ textarea.form-control {
   width: 100px; 
   position: absolute; 
   bottom: 65px;
+}
+
+.span-icon-box {
+  color: white;
+}
+
+.content-data {
+  background: rgba(255, 255, 255, 0.6);
 }
