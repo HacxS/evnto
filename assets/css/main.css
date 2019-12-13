@@ -3258,7 +3258,12 @@ textarea.form-control {
   overflow: hidden;
 }
 
-
+.filterDiv {
+  float: left;
+  background-color: #ffffff;
+  color: #ffffff;
+  display: none; /* Hidden by default */
+}
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
