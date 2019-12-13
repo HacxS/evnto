@@ -3258,16 +3258,6 @@ textarea.form-control {
   overflow: hidden;
 }
 
-.filterDiv {
-  float: left;
-  background-color: #ffffff;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none; /* Hidden by default */
-}
 
 /* The "show" class is added to the filtered elements */
 .show {
