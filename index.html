@@ -268,22 +268,22 @@
         
         <div class="project-menu" id="myBtnContainer">
                 <ul>
-                    <li class="btn filter active tran3s" data-filter="all">
-                                <span class="mybtn" onclick="filterSelection('all')">
+                    <li>
+                                <span class="mybtn filter active" onclick="filterSelection('all')">
                                     <span class="mytext">All</span>
                                     <span class="myflip-front">All</span>
                                     <span class="myflip-back">All</span>
                                 </span>
                     </li>
-                    <li class="btn filter tran3s" data-filter=".startup">
-                                <span class="mybtn" onclick="filterSelection('startup')">
+                    <li>
+                                <span class="mybtn filter" onclick="filterSelection('startup')">
                                     <span class="mytext">Startup</span>
                                     <span class="myflip-front">Startup</span>
                                     <span class="myflip-back">Startup</span>
                                 </span>
                     </li>
-                    <li class="btn filter tran3s" data-filter=".student">
-                                <span class="mybtn" onclick="filterSelection('student')">
+                    <li>
+                                <span class="mybtn filter" onclick="filterSelection('student')">
                                     <span class="mytext">Student</span>
                                     <span class="myflip-front">Student</span>
                                     <span class="myflip-back">Student</span>
@@ -1151,12 +1151,11 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current control button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
+var btns = btnContainer.getElementsByClassName("mybtn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("filter active");
-    console.log(current);
-    current[0].className = current[0].className.replace(" active", "");
+    current[0].className = current[0].className.replace("active", "");
     this.className += " active";
   });
 }
