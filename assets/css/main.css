@@ -3288,3 +3288,19 @@ textarea.form-control {
   background-color: #666;
   color: white;
 }
+
+.button-down {
+  background-color: orange;
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.button-up {
+  background-color: orange; 
+  height: 50px; 
+  width: 100px; 
+  position: absolute; 
+  bottom: 65px;
+}
