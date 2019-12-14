@@ -166,7 +166,7 @@ ul.nosyely_list {
 }
 
 .brand_item {
-  opacity: 0.3;
+  opacity: 0.7;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -3387,6 +3387,14 @@ textarea.form-control {
   position: absolute;
   bottom: 10px;
 }
+
+.button-down1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 40px;
+  width: 150px;
+  position: relative;
+}
+
 
 .event-button {
   color: white;
