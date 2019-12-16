@@ -83,7 +83,8 @@ $(document).ready(function() {
     $(".brand_carousel").owlCarousel({
         loop:true,
         autoplay:true,
-        smartSpeed:450,
+        smartSpeed:700,
+        autoplayTimeout:2000,
         autoplayHoverPause:false,
         dots:false,
         nav:false,
