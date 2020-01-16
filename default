@@ -3,6 +3,15 @@ server {
 
     server_name esummitiitbhu.com www.esummitiitbhu.com;
     
+    location ~ ^/inter-connect {
+            proxy_pass http://localhost:8000;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+         }
+         
     location / {
             proxy_pass http://localhost:9000;
             proxy_http_version 1.1;
@@ -36,14 +45,10 @@ server {
         return 301 https://$host$request_uri;
     } # managed by Certbot
     
-    if ($host = inter-connect.esummitiitbhu.com) {
-        return 301 https://$host$request_uri;
-    } # managed by Certbot
-    
 
      listen 80 default_server;
      listen [::]:80 default_server;
-     server_name esummitiitbhu.com www.esummitiitbhu.com inter-connect.esummitiitbhu.com www.inter-connect.esummitiitbhu.com;
+     server_name esummitiitbhu.com www.esummitiitbhu.com;
      return 404; # managed by Certbot
 
 
